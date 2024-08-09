@@ -13,6 +13,7 @@ services:
       - STATESYNC_POLKACHU=1
       - CANINED_PRIV_VALIDATOR_LADDR=0.0.0.0:3333
       - CANINED_P2P_EXTERNAL_ADDRESS="<your assigned URI and forwarded port goes here>"
+      - CANINED_P2P_EXTERNAL_ADDRESS="jackal-rpc.europlots.com:16656"
     expose:
       - port: 26657
         to:
